@@ -14,8 +14,8 @@ console.log(myName);
 var fistName = "Ashwani";
 var fistName = "Eager"; // redeclare firstName 
 // you can use redeclaration with var
-let lastName = "kumar";
-let lastName = "Ashwani"; // redeclare not allowed here
+//let lastName = "kumar";
+//let lastName = "Ashwani"; // redeclare not allowed here
 // you can't use redeclaration with let
 
 
