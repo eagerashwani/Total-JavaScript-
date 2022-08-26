@@ -27,7 +27,7 @@ console.log(array1);
 console.log(array2);
 
 // RDT stores in heap
-// In stack array1 has address, where the array is stored
+// In stack array1 (pointer) has address, where the array is stored
 // array2 also have same address
-// both points to same address
+// both pointer points to same address
 // so, when we update any one, both array shows updated
