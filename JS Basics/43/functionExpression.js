@@ -60,10 +60,10 @@ console.log(firstChar("Ashwani"));
 // This is function expression
 
 const myChar = function(myString){
-    return myChar[0];
+    return myString[0];
 }
 
-console.log(myChar);
+console.log(myChar("Ashwani"));
 
 
 
