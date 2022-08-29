@@ -27,10 +27,10 @@ console.log(evenHai(3));
 
 // If function have only one line than remove {} and return statement
 
-const myChar = myString =>  myChar[0];
+const myChar = myString =>  myString[0];
 
 
-console.log(myChar);
+console.log(myChar("Ashwani"));
 
 
 
