@@ -1,4 +1,4 @@
-// Here are soome useful string methods
+// Here are some useful string methods
 
 // trim()
 // toUpperCase()
