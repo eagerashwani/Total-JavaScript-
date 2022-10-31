@@ -30,3 +30,11 @@ for(let item of navItems){
 //     navItem.style.backgroundColor = 'purple';
 //     navItem.style.color = 'white';
 // })
+
+// NodeList
+// In nodeList you can use all 3 loops
+// simple for loop
+// for of loop
+// for each
+// you can also change NodeList into an array
+// same as above
