@@ -10,6 +10,7 @@
 // Browser have no idea about them, so execution is stopped and Error is occurred.
 // Thats why this way is not used.
 
+
 // second way
 // <script src="./JS DOM/1_AsyncVsDefer.js"></script> </body>
 // add script just before the closing body tag.
@@ -22,12 +23,16 @@
 // Than JS Load, it also takes some time.
 // Than JS Executes, it takes some time.
 
+
+
 // third way
 // <script src="./JS DOM/1_AsyncVsDefer.js" async></script> in the head tag.
 // First browser start parsing the HTML document and when it get the script
 // along with the parsing, browser start loading the JS 
 // when JS is loaded and start executing at that time if any HTML document is parsing
 // than it stopped. It may cause problems that's why we don't this way.
+
+
 
 // fourth way
 // <script src="./JS DOM/1_AsyncVsDefer.js" defer></script> in the head tag.

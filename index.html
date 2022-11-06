@@ -1,99 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./JS DOM/9_loopinHTMLCollection.js" defer></script>
-    <title>Document</title>
-</head>
-<body>
-    <h2 id="heading">My Heading <span style="display: none;">Hello Span</span></h2>
-    <ul>
-        <li class="nav-item"><a href="#home">Home</a></li>
-        <li class="nav-item"><a href="">About</a></li>
-        <li class="nav-item"><a href="">Contact</a></li>
-    </ul>
-    <!-- <script src="./JS Basics/01/helloWorld.js"></script> -->
-    <!-- <script src="./JS Basics/02/variables.js"></script> -->
-    <!-- <script src="./JS Basics/12/booleanAndComparison.js"></script> -->
-    <!-- <script src="./JS Basics/13/ifelse.js"></script> -->
-    <!-- <script src="./JS Basics/14/falsy.js"></script> -->
-    <!-- <script src="./JS Basics/15/ternaryOperator.js"></script> -->
-    <!-- <script src="./JS Basics/16/andNor.js"></script> -->
-    <!-- <script src="./JS Basics/17/nestedifelse.js"></script> -->
-    <!-- <script src="./JS Basics/18/ifelseif.js"></script> -->
-    <!-- <script src="./JS Basics/19/switch.js"></script> -->
-    <!-- <script src="./JS Basics/20/while.js"></script> -->
-    <!-- <script src="./JS Basics/21/forloop.js"></script> -->
-    <!-- <script src="./JS Basics/22/breakContinue.js"></script> -->
-    <!-- <script src="./JS Basics/23/dowhileloop.js"></script> -->
-    <!-- <script src="./JS Basics/24/array.js"></script> -->
-    <!-- <script src="./JS Basics/25/arrayMethods.js"></script> -->
-    <!-- <script src="./JS Basics/26/primitiveNreferenceDT.js"></script> -->
-    <!-- <script src="./JS Basics/27/cloneNConcate.js"></script> -->
-    <!-- <script src="./JS Basics/28/forInArray.js"></script> -->
-    <!-- <script src="./JS Basics/29/constInArray.js"></script> -->
-    <!-- <script src="./JS Basics/30/whileInArray.js"></script> -->
-    <!-- <script src="./JS Basics/31/forofloop.js"></script> -->
-    <!-- <script src="./JS Basics/32/forinloop.js"></script> -->
-    <!-- <script src="./JS Basics/33/arrayDestructuring.js"></script> -->
-    <!-- <script src="./JS Basics/34/introObjects.js"></script> -->
-    <!-- <script src="./JS Basics/35/diffDotNBracket.js"></script> -->
-    <!-- <script src="./JS Basics/36/objIterate.js"></script> -->
-    <!-- <script src="./JS Basics/37/computedProperties.js"></script> -->
-    <!-- <script src="./JS Basics/38/spreadOpObj.js"></script> -->
-    <!-- <script src="./JS Basics/39/objDestructring.js"></script> -->
-    <!-- <script src="./JS Basics/40/objInsideArray.js"></script> -->
-    <!-- <script src="./JS Basics/41/nestedDestructuring.js"></script> -->
-    <!-- <script src="./JS Basics/42/introFunctions.js"></script> -->
-    <!-- <script src="./JS Basics/44/arrowFunction.js"></script> -->
-    <!-- <script src="./JS Basics/45/hoisting.js"></script> -->
-    <!-- <script src="./JS Basics/46/funcInsideFunc.js"></script> -->
-    <!-- <script src="./JS Basics/47/lexicalScope.js"></script> -->
-    <!-- <script src="./JS Basics/48/blockNFuncScope.js"></script> -->
-    <!-- <script src="./JS Basics/49/defaultParameter.js"></script> -->
-    <!-- <script src="./JS Basics/50/restParameters.js"></script> -->
-    <!-- <script src="./JS Basics/51/paramDestructuring.js"></script> -->
-    <!-- <script src="./JS Basics/52/callback.js"></script> -->
-    <!-- <script src="./JS Basics/53/funcReturnFunc.js"></script> -->
-    <!-- <script src="./JS Basics/54/forEach.js"></script> -->
-    <!-- <script src="./JS Basics/55/map.js"></script> -->
-    <!-- <script src="./JS Basics/56/filter.js"></script> -->
-    <!-- <script src="./JS Basics/57/reduce.js"></script> -->
-    <!-- <script src="./JS Basics/58/sort.js"></script> -->
-    <!-- <script src="./JS Basics/59/find.js"></script> -->
-    <!-- <script src="./JS Basics/60/every.js"></script> -->
-    <!-- <script src="./JS Basics/61/some.js"></script> -->
-    <!-- <script src="./JS Basics/62/fill.js"></script> -->
-    <!-- <script src="./JS Basics/63/splice.js"></script> -->
-    <!-- <script src="./JS Basics/64/iterable.js"></script> -->
-    <!-- <script src="./JS Basics/65/sets.js"></script> -->
-    <!-- <script src="./JS Basics/66/mapObject.js"></script> -->
-    <!-- <script src="./JS Basics/67/objAssign.js"></script> -->
-    <!-- <script src="./JS Basics/68/optionalChaining.js"></script> -->
-    <!-- <script src="./JS Basics/69/method.js"></script> -->
-    <!-- <script src="./JS Basics/70/this.js"></script> -->
-    <!-- <script src="./JS Basics/71/callApplyBind.js"></script> -->
-    <!-- <script src="./JS Basics/72/sillyMistake.js"></script> -->
-    <!-- <script src="./JS Basics/73/arrowFuncNThis.js"></script> -->
-    <!-- <script src="./JS Basics/74/shortSyntax.js"></script> -->
-    <!-- <script src="./JS Basics/75/createFun4MulObj.js"></script> -->
-    <!-- <script src="./JS Basics/76/storeMethodDiffObj.js"></script> -->
-    <!-- <script src="./JS Basics/77/solViaObjCreate.js"></script> -->
-    <!-- <script src="./JS Basics/78/prototype.js"></script> -->
-    <!-- <script src="./JS Basics/79/usePrototype.js"></script> -->
-    <!-- <script src="./JS Basics/80/newKeyword.js"></script> -->
-    <!-- <script src="./JS Basics/81/hasOwnProperty.js"></script> -->
-    <!-- <script src="./JS Basics/82/class.js"></script> -->
-    <!-- <script src="./JS Basics/83/super.js"></script> -->
-    <!-- <script src="./JS Basics/84/sameMehods.js"></script> -->
-    <!-- <script src="./JS Basics/85/gettersNsetters.js"></script> -->
-    <!-- <script src="./JS Basics/86/staticMethodsNProperties.js"></script> -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./JS DOM/12_TraversingDOM.js" defer></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <header class="mainhead">
+            <h2 id="heading">My Heading <span style="display: none;">Hello Span</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, alias.</p>
+        </header>
+        <ul>
+            <li class="nav-item"><a href="#home">Home</a></li>
+            <li class="nav-item"><a href="">About</a></li>
+            <li class="nav-item"><a href="">Contact</a></li>
+        </ul>
+        <!-- <script src="./JS Basics/01/helloWorld.js"></script> -->
+        <!-- <script src="./JS Basics/02/variables.js"></script> -->
+        <!-- <script src="./JS Basics/12/booleanAndComparison.js"></script> -->
+        <!-- <script src="./JS Basics/13/ifelse.js"></script> -->
+        <!-- <script src="./JS Basics/14/falsy.js"></script> -->
+        <!-- <script src="./JS Basics/15/ternaryOperator.js"></script> -->
+        <!-- <script src="./JS Basics/16/andNor.js"></script> -->
+        <!-- <script src="./JS Basics/17/nestedifelse.js"></script> -->
+        <!-- <script src="./JS Basics/18/ifelseif.js"></script> -->
+        <!-- <script src="./JS Basics/19/switch.js"></script> -->
+        <!-- <script src="./JS Basics/20/while.js"></script> -->
+        <!-- <script src="./JS Basics/21/forloop.js"></script> -->
+        <!-- <script src="./JS Basics/22/breakContinue.js"></script> -->
+        <!-- <script src="./JS Basics/23/dowhileloop.js"></script> -->
+        <!-- <script src="./JS Basics/24/array.js"></script> -->
+        <!-- <script src="./JS Basics/25/arrayMethods.js"></script> -->
+        <!-- <script src="./JS Basics/26/primitiveNreferenceDT.js"></script> -->
+        <!-- <script src="./JS Basics/27/cloneNConcate.js"></script> -->
+        <!-- <script src="./JS Basics/28/forInArray.js"></script> -->
+        <!-- <script src="./JS Basics/29/constInArray.js"></script> -->
+        <!-- <script src="./JS Basics/30/whileInArray.js"></script> -->
+        <!-- <script src="./JS Basics/31/forofloop.js"></script> -->
+        <!-- <script src="./JS Basics/32/forinloop.js"></script> -->
+        <!-- <script src="./JS Basics/33/arrayDestructuring.js"></script> -->
+        <!-- <script src="./JS Basics/34/introObjects.js"></script> -->
+        <!-- <script src="./JS Basics/35/diffDotNBracket.js"></script> -->
+        <!-- <script src="./JS Basics/36/objIterate.js"></script> -->
+        <!-- <script src="./JS Basics/37/computedProperties.js"></script> -->
+        <!-- <script src="./JS Basics/38/spreadOpObj.js"></script> -->
+        <!-- <script src="./JS Basics/39/objDestructring.js"></script> -->
+        <!-- <script src="./JS Basics/40/objInsideArray.js"></script> -->
+        <!-- <script src="./JS Basics/41/nestedDestructuring.js"></script> -->
+        <!-- <script src="./JS Basics/42/introFunctions.js"></script> -->
+        <!-- <script src="./JS Basics/44/arrowFunction.js"></script> -->
+        <!-- <script src="./JS Basics/45/hoisting.js"></script> -->
+        <!-- <script src="./JS Basics/46/funcInsideFunc.js"></script> -->
+        <!-- <script src="./JS Basics/47/lexicalScope.js"></script> -->
+        <!-- <script src="./JS Basics/48/blockNFuncScope.js"></script> -->
+        <!-- <script src="./JS Basics/49/defaultParameter.js"></script> -->
+        <!-- <script src="./JS Basics/50/restParameters.js"></script> -->
+        <!-- <script src="./JS Basics/51/paramDestructuring.js"></script> -->
+        <!-- <script src="./JS Basics/52/callback.js"></script> -->
+        <!-- <script src="./JS Basics/53/funcReturnFunc.js"></script> -->
+        <!-- <script src="./JS Basics/54/forEach.js"></script> -->
+        <!-- <script src="./JS Basics/55/map.js"></script> -->
+        <!-- <script src="./JS Basics/56/filter.js"></script> -->
+        <!-- <script src="./JS Basics/57/reduce.js"></script> -->
+        <!-- <script src="./JS Basics/58/sort.js"></script> -->
+        <!-- <script src="./JS Basics/59/find.js"></script> -->
+        <!-- <script src="./JS Basics/60/every.js"></script> -->
+        <!-- <script src="./JS Basics/61/some.js"></script> -->
+        <!-- <script src="./JS Basics/62/fill.js"></script> -->
+        <!-- <script src="./JS Basics/63/splice.js"></script> -->
+        <!-- <script src="./JS Basics/64/iterable.js"></script> -->
+        <!-- <script src="./JS Basics/65/sets.js"></script> -->
+        <!-- <script src="./JS Basics/66/mapObject.js"></script> -->
+        <!-- <script src="./JS Basics/67/objAssign.js"></script> -->
+        <!-- <script src="./JS Basics/68/optionalChaining.js"></script> -->
+        <!-- <script src="./JS Basics/69/method.js"></script> -->
+        <!-- <script src="./JS Basics/70/this.js"></script> -->
+        <!-- <script src="./JS Basics/71/callApplyBind.js"></script> -->
+        <!-- <script src="./JS Basics/72/sillyMistake.js"></script> -->
+        <!-- <script src="./JS Basics/73/arrowFuncNThis.js"></script> -->
+        <!-- <script src="./JS Basics/74/shortSyntax.js"></script> -->
+        <!-- <script src="./JS Basics/75/createFun4MulObj.js"></script> -->
+        <!-- <script src="./JS Basics/76/storeMethodDiffObj.js"></script> -->
+        <!-- <script src="./JS Basics/77/solViaObjCreate.js"></script> -->
+        <!-- <script src="./JS Basics/78/prototype.js"></script> -->
+        <!-- <script src="./JS Basics/79/usePrototype.js"></script> -->
+        <!-- <script src="./JS Basics/80/newKeyword.js"></script> -->
+        <!-- <script src="./JS Basics/81/hasOwnProperty.js"></script> -->
+        <!-- <script src="./JS Basics/82/class.js"></script> -->
+        <!-- <script src="./JS Basics/83/super.js"></script> -->
+        <!-- <script src="./JS Basics/84/sameMehods.js"></script> -->
+        <!-- <script src="./JS Basics/85/gettersNsetters.js"></script> -->
+        <!-- <script src="./JS Basics/86/staticMethodsNProperties.js"></script> -->
 
 
-    <!-- <script src="./JS Advance/1/syncVsAsync.js"></script> -->
-    <!-- <script src="./JS Advance/2/setInterval.js"></script> -->
-    <!-- <script src="./JS Advance/3/callbacks.js"></script> -->
-</body>
+        <!-- <script src="./JS Advance/1/syncVsAsync.js"></script> -->
+        <!-- <script src="./JS Advance/2/setInterval.js"></script> -->
+        <!-- <script src="./JS Advance/3/callbacks.js"></script> -->
+    </body>
 </html>
