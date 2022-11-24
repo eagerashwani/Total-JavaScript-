@@ -11,16 +11,16 @@
 
 // 1st way
 // put js code in onclick = " "
-{/* <button class="myBtn" onclick="console.log('clicked me')">My Button</button> */}
+{/* <button class="myBtn" onclick="console.log('clicked me')">My Button</button> */ }
 
 
 // 2nd way
-{/* <button class="myBtn">My Button 2</button> */}
+{/* <button class="myBtn">My Button 2</button> */ }
 
 const btn = document.querySelector('.myBtn');
 console.log(btn);
 console.dir(btn);
-btn.onclick = function (){
+btn.onclick = function () {
     alert('yoy clicked me')
 }
 
@@ -29,7 +29,8 @@ btn.onclick = function (){
 
 // 3rd way
 const myBtn = document.querySelector('.myBtn3')
-// method --- addEventListner
-myBtn.addEventListener("click", ()=>{
+// method --- addEventListener (It take two things, 1st is 'event' and the function you want to when button click)
+
+myBtn.addEventListener("click", () => {
     alert('button clicked via addEventListner')
 })
