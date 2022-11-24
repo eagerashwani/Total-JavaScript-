@@ -23,7 +23,7 @@ const allButtons = document.querySelectorAll('.my-buttons button');
 
 allButtons.forEach((button) => {
     button.addEventListener("click", (e)=>{
-        console.log(e.target)
+        console.log(e.currentTarget)
         // currentTarget - jab humney click kiya to event kon se button par tha
         // target - jab click kiya to kahan se fire huwa
     })
