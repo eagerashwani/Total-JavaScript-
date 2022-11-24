@@ -6,3 +6,10 @@
     background-color: #000;
     color: #eee;
 }
+
+li{
+    padding: 10px;
+    margin: .5rem;
+    background-color: #000;
+    color: rgb(255, 234, 0);
+}
