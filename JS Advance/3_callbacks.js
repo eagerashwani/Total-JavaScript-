@@ -7,7 +7,7 @@ function hello(callback){
 
 hello(()=>{
     console.log("I am callback");
-})
+}) 
 
 //? ex 2
 

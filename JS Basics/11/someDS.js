@@ -39,4 +39,5 @@ console.log(a + b);
 // if one variable is not BigInt, than you can't perform operations.
 
 
-
+let bb = 2
+console.log(bb)

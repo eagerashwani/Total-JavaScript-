@@ -62,7 +62,7 @@ console.log("script end");
 // ....
 // script end
 // Inside setTimeout
-
+ 
 
 //* Working  
 //  1st GEC go in the callstack
@@ -78,7 +78,7 @@ console.log("script end");
 
 
 // setTimeout returns an id
-
+ 
 console.log("script start");
 
 const id = setTimeout(()=>{
@@ -87,7 +87,7 @@ const id = setTimeout(()=>{
 
 for(let i=1; i<100; i++){
     console.log("....");
-}
+}  
 console.log("setTimeout id is ", id);
 console.log("clearing time out");
 clearTimeout(id);
