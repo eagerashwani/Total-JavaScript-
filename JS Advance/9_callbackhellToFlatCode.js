@@ -9,6 +9,21 @@ const heading7 = document.querySelector(".heading7")
 const heading8 = document.querySelector(".heading8")
 const heading9 = document.querySelector(".heading9")
 
+
+function changeText(element, text, color, time){
+    return new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+
+            if(element){
+                element.textContent = text
+                element.style.color = color
+                resolve()
+            }else{
+                reject()
+            }
+        }, time)
+    })
+}
 changeText(heading1, "one", "red", 1000).then(
     // then ek callback return krta hai
     // ()=>{
