@@ -7,7 +7,8 @@ myPromise.then(val => console.log(val))
 
 
 // then() 
-// hamesha promise return karta hai
+// fayda, hum promise ki chainig kar skte hai
+// then, hamesha promise return karta hai
 
 function thePromise(){
     return new Promise((resolve,reject)=>{
@@ -17,7 +18,13 @@ function thePromise(){
 
 thePromise().then((val)=>{console.log(val);
     val += "bar";
+    return val; // ye promise return ho rha hai, agr hum val return na kre to bydefault undefined hi return hota hai.
+
+
+}).then(val=>{
+    console.log(val)
+    val += 'baaz'
     return val;
+}).then(val => console.log(val))
 
-
-}).then(val=>console.log(val))
+// hum string pe promise ni lga skte 
